@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="com.touch.xu.loadinganimdemo.ExpandedActivity">
+
+    <ListView
+        android:dividerHeight="10dp"
+        android:id="@+id/expand_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+    <com.touch.xu.loadinganimdemo.ExpandedView
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="检测报告"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="top|right"
+        app:drawer_duration="200"
+        app:roll_duration="450"
+        android:id="@+id/ev_demo"
+        app:fore_text="未连接设备"
+        app:back_border_width="0"
+        app:back_border_color="@android:color/transparent"
+        app:background_color="@android:color/holo_blue_bright"
+        app:back_left_top_radius="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="12dp"
+        app:text_padding_left="30dp"
+        app:text_padding_right="12dp"
+        app:back_left_bottom_radius="20dp"
+        app:back_right_bottom_radius="0dp"
+        app:back_right_top_radius="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+
+</FrameLayout>

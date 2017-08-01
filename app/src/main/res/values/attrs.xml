@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--波纹动画空间的属性-->
+    <declare-styleable name="WaveView">
+        <attr name="interval_time" format="integer" /> <!--间隔时间-->
+        <attr name="wave_count" format="integer"></attr> <!--波纹的数量-->
+        <attr name="center_drawable" format="reference"></attr> <!--波纹中心的图片-->
+        <attr name="wave_circle_color" format="color"></attr>
+        <attr name="wave_circle_width" format="float"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleSubmitView">
+        <attr name="back_default_color" format="color"></attr> <!--背景默认颜色-->
+        <attr name="back_end_color" format="color"></attr> <!--背景结束颜色-->
+        <attr name="circle_color" format="color" /> <!--圆圈颜色-->
+        <attr name="circle_width" format="float"></attr> <!--圆圈宽度-->
+        <attr name="right_color" format="color"></attr> <!--对勾颜色-->
+        <attr name="right_width" format="float"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="ExpandedView">
+        <attr name="back_left_top_radius" format="dimension"></attr>
+        <attr name="back_right_top_radius" format="dimension"></attr>
+        <attr name="back_left_bottom_radius" format="dimension" />
+        <attr name="back_right_bottom_radius" format="dimension"></attr>
+
+        <attr name="back_border_color" format="color"></attr>
+        <attr name="back_border_width" format="float"></attr>
+        <attr name="background_color" format="color"></attr>
+
+        <attr name="drawer_duration" format="float"></attr> <!--折叠展开的时间-->
+        <attr name="roll_duration" format="float"></attr><!--文字翻滚的时间-->
+        
+        <attr name="text_padding_left" format="dimension"></attr>
+        <attr name="text_padding_right" format="dimension"></attr>
+
+        <attr name="fore_text" format="string"></attr>
+    </declare-styleable>
+</resources>    

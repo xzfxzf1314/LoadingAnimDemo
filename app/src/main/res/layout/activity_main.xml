@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.touch.xu.loadinganimdemo.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_start"
+        android:textColor="@color/colorPrimary"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接动画Demo"
+        />
+
+    <Button
+        android:id="@+id/bt_wave"
+        android:text="水波纹"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_anim"
+        android:text="翻转"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/bt_expand"
+        android:text="展开"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_underline"
+        android:text="下划线"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.touch.xu.loadinganimdemo.NewSubmitView
+        app:back_default_color="@android:color/white"
+        app:back_end_color="@color/colorPrimary"
+        app:circle_color="@color/colorPrimary"
+        app:circle_width="5"
+        app:right_color="@android:color/white"
+        app:right_width="5"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/nsv_loading_1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <com.touch.xu.loadinganimdemo.DottedLineView
+        android:id="@+id/dlv_loading_1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="4dp"
+        android:layout_height="80dp"/>
+
+
+    <com.touch.xu.loadinganimdemo.NewSubmitView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/nsv_loading_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <com.touch.xu.loadinganimdemo.DottedLineView
+        android:id="@+id/dlv_loading_2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="4dp"
+        android:layout_height="80dp"/>
+
+    <com.touch.xu.loadinganimdemo.NewSubmitView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/nsv_loading_3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    </LinearLayout>
+</ScrollView>
